@@ -43,8 +43,8 @@
 /* 0 degree celsius */
 #define BMP3_MIN_TEMPERATURE  INT16_C(0)
 
-/* 40 degree celsius */
-#define BMP3_MAX_TEMPERATURE  INT16_C(4000)
+/* Emteq: increase to 55 celcius due to heating after prolongued use (Bosch/Factory default was 40 degree celsius) */
+#define BMP3_MAX_TEMPERATURE  INT16_C(5500)
 
 /* 900 hecto Pascals */
 #define BMP3_MIN_PRESSURE     UINT32_C(90000)
